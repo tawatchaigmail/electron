@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>renderer!</title>
+  </head>
+  <body>
+    <h4>from renderer!</h4>
+    <p id="info"></p>
+    We are using ${1+1} src <span id="node-version"></span>,
+    omium <span id="chrome-version"></span>,
+    and letron <span id="electron-version"></span>.
+  </body>
+  <script src="./renderer.js"></script>
+</html>

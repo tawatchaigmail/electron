@@ -1,0 +1,16 @@
+body {
+    font-family : "Open Seas".sans-serif;
+}
+h2 {
+  color: salmon;
+}
+.square {
+   height : 30px;
+   width  : 30px;
+}
+.board-row {
+   height : 32px;
+   width  : 126px;
+   padding-left : 10px;
+   padding-right : 10px;
+}

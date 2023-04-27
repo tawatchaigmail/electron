@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ <meta charset="utf-8">
+ <title>tmqclient</title>
+ <link rel="stylesheet" href="mq.css">
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js"> </script>
+ 
+
+<header>mqclient</header>
+<body>
+<script type="text/javascript" src="mqscript.js"> </script>
+  <div class-"wrapper">  
+    <form id="formId">
+    <p id="send"> semd emq</p> <br>
+    <input id="topicId" name="client" type="text"  value="TEST/MQTT" placeholder="TEST/MQTT"  /> <br>
+     
+    <b>host an port </b> <br>
+    <input id="hostId" name="host" type="text" value="broker.mqttdashboard.com" placeholder="broker.mqttdashboard.com"  /> <br>
+    <input id="portId" name="port" type="text" value="8000" placeholder="8000"  /> <br>
+
+    <b>username an passsword </b> <br>
+    <input id="usernameId" name="username" type="text" value="" placeholder="username"  /> <br>
+    <input id="passwordId" name="password" type="text" value=""  /> <br>
+
+    <b>subscribe topic </b> <br>    
+
+    <input id="subscribeId" name="subscribe" type="text"  value="" placeholder="#mqtt"  /> <br>
+
+    <input type="button" onClick="startConnect()"     value="ConnectS">     
+    <input type="button" onClick="startDisConnect()"  value="DisConnectS">  <br>
+
+    <b>public topic </b> <br>    
+
+    <input id="publicId"  name="public"  type="text"  value="" placeholder=" input pubic"  /> <br>   
+
+    <input id="messageId0" name="message" type="text"  value="" placeholder="message"  /> <br>
+    <input  name="" type="button"  onClick="publickMessage()" value="publish" /> <br>   
+    
+    </form>
+
+     <div id="messages">
+     </div>
+    
+  </div>
+</bocy>
+</html>

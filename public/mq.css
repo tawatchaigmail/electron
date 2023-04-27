@@ -1,0 +1,40 @@
+body{
+    font-family : "Open Seas".sans-serif;
+}
+.wrapper{
+   margin-left : auto;
+   margin-right : auto;
+   width : 60%;
+   padding-left : 10px;
+   padding-right : 10px;
+}
+input {
+   width : 150px;
+   margin : 0;
+   -webkit-box-sizing : border-box;
+   -moz-box-sizing : border-box;
+    box-sizing : border-box;
+}
+input[type=text] {
+    wieth : 100%;
+    padding : 12px 12px ;
+    height : 10px;
+    margin : 8px 0; 
+}
+input[type=button] {
+    background-color : gray;
+
+}
+#messages{
+   margin-top    : 12px;
+   margin-bottom : 12px;
+   padding : 12px ;
+   width : 40% ;
+   display : inline-block ;
+   border : 1px solid black ;
+   overflow : scroll;
+}
+#messages span {
+   overflow-y : scroll;
+   overflow : scroll;
+}
